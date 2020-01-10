@@ -1,6 +1,6 @@
 Name:		libotf
 Version:	0.9.13
-Release:	2%{?dist}
+Release:	4%{?dist}
 Summary:	A Library for handling OpenType Font
 
 Group:		System Environment/Libraries
@@ -70,6 +70,12 @@ rm $RPM_BUILD_ROOT/usr/bin/libotf-config
 %{_libdir}/pkgconfig/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.9.13-4
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.9.13-3
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.9.13-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
